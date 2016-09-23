@@ -14,3 +14,20 @@ function multiplicar(){
     }
     return false;
 }
+
+document.getElementById("calcular").onclick = function(){
+    var N = document.getElementById("numero").value;
+    var lista = document.createElement("ul");
+    for(var i=1;i<=N;i++){
+        var item = document.createElement("li");
+        item.innerHTML = parseInt(Math.random()*100)+1;
+        lista.appendChild(item);
+    }
+    document.getElementsByClassName("aleatorio")[0].appendChild(lista);
+    return false;
+}
+document.getElementById("color").onchange = function(event){
+    var valor = event.target.value;
+    var nuevoColor = "linear-gradient("+valor+", #fff)";
+    document.getElementsByTagName("body")[0].style.background = nuevoColor;
+}

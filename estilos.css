@@ -22,7 +22,7 @@ img {
 	background-image: -webkit-linear-gradient(yellow,blue);
 }
 
-ul{
+ul[id="a"]{
 	color: 000000;
 	background-color:lime;
 	width: 300px;
@@ -30,15 +30,34 @@ ul{
 	border-radius: 0px 90px 90px 0px;
 	display: block;
 	background: -webkit-linear-gradient(left, #dcdcdc 0%, red 100%);
+	border-left:10px solid #60f735;
 	 
-
-
-
-
 }
-ol{
-	margin-left: 23;
+ul {
+	
+	background-color:lime;
+	 
 }
+section#formulario{
+	position: absolute;
+	background-color: #1508ad;
+	border-radius: 6px;
+	overflow: hidden;
+	height: 200px;
+	width:300px;
+}
+#a ul  {
+	 
+	border-left:10px solid #60f735;  //Agrego un borde ancho a la izquierda
+}
+#a ul :hover {
+	color:#99CC00;
+	background-color:#003366;
+	border-left-color:#99CC00; //Luego le cambio el color al borde en el evento hover.
+}
+
+
+ 
  
   
 
