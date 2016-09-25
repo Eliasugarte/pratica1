@@ -1,24 +1,23 @@
+
 h1 {
 	color: black;
 	font-family: times;
 	font-size: 30px;
 	 text-shadow: 4px 7px  10px ;
-
 }
 body{
 	background-color:#00FFFF;
+	 
 }
 html, body{
 	background: -webkit-linear-gradient(top, #dcdcdc 0%, #299300 100%);
+	
 
 }
  
 img {
 	border-radius: 30px;
 	box-shadow: 10px 10px;
-	 
-
-	
 	background-image: -webkit-linear-gradient(yellow,blue);
 }
 
@@ -29,23 +28,37 @@ ul[id="a"]{
 	height:30px;
 	border-radius: 0px 90px 90px 0px;
 	display: block;
-	background: -webkit-linear-gradient(left, #dcdcdc 0%, red 100%);
-	border-left:10px solid #60f735;
-	 
+	background: -webkit-linear-gradient(left, #dcdcdc 0%, #1095ca 100%);
+	border-left:10px solid #60f735; 
 }
-ul {
-	
-	background-color:lime;
-	 
-}
+ 
 section#formulario{
-	position: absolute;
-	background-color: #1508ad;
-	border-radius: 6px;
+	 
+	background-color: #0f96b7;
+	border-radius: 10px;
 	overflow: hidden;
-	height: 200px;
-	width:300px;
+	height: 190px;
+	width:350px;
+	  
+	top: 50px;
 }
+
+button {
+	background-color: #e32d33;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #a ul  {
 	 
 	border-left:10px solid #60f735;  //Agrego un borde ancho a la izquierda
@@ -55,6 +68,7 @@ section#formulario{
 	background-color:#003366;
 	border-left-color:#99CC00; //Luego le cambio el color al borde en el evento hover.
 }
+
 
 
  
